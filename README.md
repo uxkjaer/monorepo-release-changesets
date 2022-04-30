@@ -1,8 +1,8 @@
 # monorepo + changesets Release FLow
 
-This repository is an example of monorepo release flow.
+This is an example of monorepo release flow.
 
-This monorepo use [yarn](https://github.com/yarnpkg/yarn), [changesets](https://github.com/atlassian/changesets), and [GitHub Actions](https://github.co.jp/features/actions) without [lerna](https://github.com/lerna/lerna).
+This monorepo use [yarn](https://github.com/yarnpkg/yarn) + [lerna](https://github.com/lerna/lerna) + [changesets](https://github.com/atlassian/changesets) + [GitHub Actions](https://github.co.jp/features/actions). 
 
 Related:
 
@@ -55,6 +55,7 @@ Another monorepo release flow:
 ### An Example of Work Flow 
 
 1. [Person] Submit PR: [feat(one): add new feature by azu · Pull Request #4 · azu/monorepo-release-changesets](https://github.com/azu/monorepo-release-changesets/pull/4)
+
 
 ![1.pr.png](docs/1.pr.png)
 
