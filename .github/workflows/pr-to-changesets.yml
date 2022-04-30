@@ -5,6 +5,9 @@ on:
     branches:
       - master
     types: [closed]
+    paths-ignore:
+      - '.changeset/**'
+      - '**/CHANGELOG.md'
 
 jobs:
   build:
